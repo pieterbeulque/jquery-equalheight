@@ -21,9 +21,7 @@
             this.$els.each(function () {
                 var temp = $(this).height();
                 height = (height < temp) ? temp : height;
-            }).each(function () {
-                $(this).height(height);
-            });
+            }).height(height);
         }
     };
 
