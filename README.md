@@ -1,7 +1,7 @@
 # EqualHeight.js
 A lightweight jQuery plugin that assigns the same height (the biggest value found) to every element matching the given selector.
 
-## Samples
+## Examples
 
 ### All list items in an unordered list
 	$('ul').find('li').equalHeight();
