@@ -18,10 +18,12 @@
         init: function () {
             var height = 0;
 
-            this.$els.each(function () {
-                var temp = $(this).height();
-                height = (height < temp) ? temp : height;
-            }).height(height);
+            this.$els
+                .css({ 'height': '' })
+                .each(function () {
+                    var temp = $(this).height();
+                    height = (height < temp) ? temp : height;
+                }).height(height);
         }
     };
 
